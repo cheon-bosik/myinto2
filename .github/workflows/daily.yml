@@ -76,4 +76,3 @@ jobs:
           git add index.html
           git diff --staged --quiet || git commit -m "자동 갱신: $(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M')"
           git push
-daily.yml 표시 중입니다.
